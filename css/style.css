@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+body * {
+  box-sizing: border-box;
+}
+.conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button-nav {
+  margin-left: 45px;
+  background: #e3b873;
+  cursor: pointer;
+  border-radius: 2px;
+  outline: 0;
+  border: 0;
+  padding: 13px 33px;
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.logo {
+  color: #e3b873;
+}
+.header {
+  background-color: #000;
+}
+
+
+.header-content {
+  font-size: 11px;
+  height: 83px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation {
+  list-style: none;
+  display: flex;
+}
+
+.header-navigation__item {
+  margin-right: 47px;
+}
+.header-tel {
+  text-decoration: none;
+  color: #e3b873;
+}
+.header-navigation__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-navigation__item a:hover, .header-navigation__item a:active {
+  color: #E3B873;
+}
+
+.hero {
+  background-image: url("../img/main.jpg");
+  background-size: cover;
+  height: 707px;
+  padding-top: 194px;
+  position: relative;
+}
+.hero-overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.hero-conteiner {
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  height: 105px;
+  width: 676px;
+  font-family: "Yeseva One", cursive;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Rostov-on-Don {
+  color: #e3b873;
+}
+.maintext {
+  letter-spacing: 0.07em;
+  height: 105px;
+  width: 676px;
+  margin-top: 19px;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+
+.button-main {
+  color: white;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  outline: 0;
+  border: 0;
+  padding: 13px 33px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  background: transparent;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.button-main:hover, .button-main:active {
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+}
